@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Ali_01";
+    ViewData["codigo"] = "1001";
+    ViewData["categoria"] = "PRODUCTOS LÁCTEOS Y SIMILARES";
+    ViewData["tabla"] = "Tabla  de  Composición  de  Alimentos  de  Centroamérica./INCAP";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+<div class="container">   
+    <a href="#ventana1" class="btn btn-primary btn-lg" data-toggle="modal">Detalles</a>
+    <div class="modal fade" id="ventana1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- inicio de header de la ventana emergente-->
+                <div class="modal-header">
+                    <div class="panel-group">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title"> CREMA, ESPESA</h4>
+                            </div>
+                            <div class="panel-body">
+                                <div class=""><strong>#Codigo  ::::</strong> @ViewData["codigo"]</div>
+                                <hr style="color: #0056b2;" />
+                                <div class=""><strong>#Categoria :</strong> @ViewData["categoria"]</div>
+                                <hr style="color: #0056b2;" />
+                                <div class=""><strong>#Tabla :::::::</strong> @ViewData["tabla"]</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  contenido de la ventana emergente-->
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Componente</th>
+                                    <th>Valor</th>
+                                    <th>UM</th>                                   
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Agua</td><td>57.71</td><td>ml</td></tr>
+                                <tr><td>Energia</td><td>345</td><td>Kcal.</td></tr>
+                                <tr><td>Proteina</td><td>2.05</td><td>g</td></tr>
+                                <tr><td>Grasa Total</td><td>37</td><td>g</td></tr>
+                                <tr><td>Carbohidratos</td><td>2.79</td><td>g</td></tr>
+                                <tr><td>Fibra Diet. Total</td><td>0</td><td>g</td></tr>
+                                <tr><td>Ceniza</td><td>0.45</td><td>g</td></tr>
+                                <tr><td>Calcio</td><td>65</td><td>mg</td></tr>
+                                <tr><td>Fósforo</td><td>62</td><td>mg</td></tr>
+                                <tr><td>Hierro</td><td>0.03</td><td>mg</td></tr>
+                                <tr><td>Tiamina</td><td>0.02</td><td>mg</td></tr>
+                                <tr><td>Riboflavina</td><td>0.11</td><td>mg</td></tr>
+                                <tr><td>Niacina</td><td>0.04</td><td>mg</td></tr>
+                                <tr><td>Vitamina C</td><td>1</td><td>mg</td></tr>
+                                <tr><td>Vit. A. Equiv. Retinol</td><td>411</td><td>mcg</td></tr>
+                                <tr><td>Ác. grasos mono-insat.</td><td>10.69</td><td>g</td></tr>
+                                <tr><td>Ác. grasos poli-insat.</td><td>1.37</td><td>g</td></tr>
+                                <tr><td>Ác. Grasos saturados</td><td>23.03</td><td>g</td></tr>
+                                <tr><td>Colesterol</td><td>137</td><td>mg</td></tr>
+                                <tr><td>Potasio</td><td>75</td><td>mg</td></tr>
+                                <tr><td>Sodio</td><td>38</td><td>mg</td></tr>
+                                <tr><td>Zinc</td><td>0.23</td><td>mg</td></tr>
+                                <tr><td>Magnesio</td><td>7</td><td>mg</td></tr>
+                                <tr><td>Vitamina B6</td><td>0.03</td><td>mg</td></tr>
+                                <tr><td>Vitamina B12</td><td>0.18</td><td>mcg</td></tr>
+                                <tr><td>Ácido Fólico</td><td>0</td><td>mcg</td></tr>
+                                <tr><td>Folato Equiv. FD</td><td>4</td><td>mcg</td></tr>
+                                <tr><td>Fracción Comestible</td><td>1</td><td>%</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

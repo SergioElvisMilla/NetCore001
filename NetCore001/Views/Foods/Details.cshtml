@@ -1,0 +1,66 @@
+﻿@model NetCore001.Models.Food
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Food</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CodAli)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CodAli)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomAli)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomAli)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomCom)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomCom)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AliComValor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AliComValor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomUniMed)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomUniMed)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomCat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomCat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomTCA)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomTCA)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

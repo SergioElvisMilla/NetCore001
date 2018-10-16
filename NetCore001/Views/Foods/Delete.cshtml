@@ -1,0 +1,69 @@
+﻿@model NetCore001.Models.Food
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Food</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CodAli)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CodAli)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomAli)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomAli)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomCom)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomCom)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AliComValor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AliComValor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomUniMed)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomUniMed)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomCat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomCat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomTCA)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomTCA)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

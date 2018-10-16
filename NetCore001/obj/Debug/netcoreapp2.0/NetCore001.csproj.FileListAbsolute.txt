@@ -1,0 +1,12 @@
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\bin\Debug\netcoreapp2.0\NetCore001.deps.json
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\bin\Debug\netcoreapp2.0\NetCore001.runtimeconfig.json
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\bin\Debug\netcoreapp2.0\NetCore001.runtimeconfig.dev.json
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\bin\Debug\netcoreapp2.0\NetCore001.dll
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\bin\Debug\netcoreapp2.0\NetCore001.pdb
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\obj\Debug\netcoreapp2.0\NetCore001.csprojResolveAssemblyReference.cache
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\obj\Debug\netcoreapp2.0\NetCore001.csproj.CoreCompileInputs.cache
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\obj\Debug\netcoreapp2.0\NetCore001.AssemblyInfoInputs.cache
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\obj\Debug\netcoreapp2.0\NetCore001.AssemblyInfo.cs
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\obj\Debug\netcoreapp2.0\NetCore001.dll
+c:\users\sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\obj\Debug\netcoreapp2.0\NetCore001.pdb

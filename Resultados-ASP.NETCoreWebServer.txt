@@ -1,0 +1,196 @@
+﻿NetCore001> info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+NetCore001>       User profile is available. Using 'C:\Users\Sergio\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+NetCore001> Hosting environment: Development
+NetCore001> Content root path: C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001
+NetCore001> Now listening on: http://localhost:5507
+NetCore001> Application started. Press Ctrl+C to shut down.
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/  
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+NetCore001>       Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+NetCore001>       Executing action method NetCore001.Controllers.HomeController.Index (NetCore001) with arguments ((null)) - ModelState is Valid
+NetCore001> info: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor[1]
+NetCore001>       Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+NetCore001>       Executed action NetCore001.Controllers.HomeController.Index (NetCore001) in 2982.2331ms
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 3147.728ms 200 text/html; charset=utf-8
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/css/site.css  
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/images/img11_edit.jpg  
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/images/img5.jpg  
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/lib/bootstrap/dist/css/bootstrap.css  
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/images/img11_edit.jpg'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\images\img11_edit.jpg'
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\css\site.css'
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/images/img5.jpg'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\images\img5.jpg'
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/lib/bootstrap/dist/js/bootstrap.js  
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/images/img6_edit.jpg  
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/js/site.js?v=7mkNbU1tgQL1bUeZe3j2R151hKLhLDKO4BBaR-iqCy0  
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\js\site.js'
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/images/img6_edit.jpg'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\images\img6_edit.jpg'
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/lib/jquery/dist/jquery.js  
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/images/img7_edit.jpg  
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\lib\jquery\dist\jquery.js'
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/images/img7_edit.jpg'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\images\img7_edit.jpg'
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 22.907ms 200 text/css
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 3.9179ms 200 application/javascript
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 29.728ms 200 image/jpeg
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 113.7866ms 200 image/jpeg
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 149.9429ms 200 application/javascript
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 178.8373ms 200 text/css
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 162.8314ms 200 image/jpeg
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 176.3645ms 200 application/javascript
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 85.8682ms 200 font/woff2
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 406.5745ms 200 image/jpeg
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/favicon.ico  
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\favicon.ico'
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 1.9639ms 200 image/x-icon
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/Account/Login  
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+NetCore001>       Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+NetCore001>       Executing action method NetCore001.Controllers.AccountController.Login (NetCore001) with arguments () - ModelState is Valid
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[11]
+NetCore001>       AuthenticationScheme: Identity.External signed out.
+NetCore001> info: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor[1]
+NetCore001>       Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+NetCore001>       Executed action NetCore001.Controllers.AccountController.Login (NetCore001) in 853.7665ms
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 885.768ms 200 text/html; charset=utf-8
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/lib/jquery-validation/dist/jquery.validate.js  
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+NetCore001> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+NetCore001>       Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Sergio\documents\visual studio 2017\Projects\NetCore001\NetCore001\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 24.5085ms 200 application/javascript
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 32.316ms 200 application/javascript
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/Account/Register  
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+NetCore001>       Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+NetCore001>       Executing action method NetCore001.Controllers.AccountController.Register (NetCore001) with arguments () - ModelState is Valid
+NetCore001> info: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor[1]
+NetCore001>       Executing ViewResult, running view at path /Views/Account/Register.cshtml.
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+NetCore001>       Executed action NetCore001.Controllers.AccountController.Register (NetCore001) in 184.0978ms
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 188.9877ms 200 text/html; charset=utf-8
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 POST http://localhost:44300/Account/Register application/x-www-form-urlencoded 281
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+NetCore001>       Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+NetCore001>       Executing action method NetCore001.Controllers.AccountController.Register (NetCore001) with arguments (NetCore001.Models.AccountViewModels.RegisterViewModel, ) - ModelState is Valid
+NetCore001> info: Microsoft.EntityFrameworkCore.Infrastructure[100403]
+NetCore001>       Entity Framework Core 2.0.0-rtm-26452 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+NetCore001> info: Microsoft.EntityFrameworkCore.Database.Command[200101]
+NetCore001>       Executed DbCommand (59ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+NetCore001>       SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+NetCore001>       FROM [AspNetUsers] AS [u]
+NetCore001>       WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+NetCore001> warn: Microsoft.AspNetCore.Identity.UserManager[13]
+NetCore001>       User f358159a-ec7e-49e4-a0e7-bc7fe415983d validation failed: DuplicateUserName.
+NetCore001> info: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor[1]
+NetCore001>       Executing ViewResult, running view at path /Views/Account/Register.cshtml.
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+NetCore001>       Executed action NetCore001.Controllers.AccountController.Register (NetCore001) in 466.4976ms
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 478.2425ms 200 text/html; charset=utf-8
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 POST http://localhost:44300/Account/Register application/x-www-form-urlencoded 281
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+NetCore001>       Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+NetCore001>       Executing action method NetCore001.Controllers.AccountController.Register (NetCore001) with arguments (NetCore001.Models.AccountViewModels.RegisterViewModel, ) - ModelState is Valid
+NetCore001> info: Microsoft.EntityFrameworkCore.Infrastructure[100403]
+NetCore001>       Entity Framework Core 2.0.0-rtm-26452 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+NetCore001> info: Microsoft.EntityFrameworkCore.Database.Command[200101]
+NetCore001>       Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+NetCore001>       SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+NetCore001>       FROM [AspNetUsers] AS [u]
+NetCore001>       WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+NetCore001> info: Microsoft.EntityFrameworkCore.Database.Command[200101]
+NetCore001>       Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?', @p5='?', @p6='?', @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?', @p12='?' (Size = 4000), @p13='?', @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+NetCore001>       SET NOCOUNT ON;
+NetCore001>       INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+NetCore001>       VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+NetCore001> info: NetCore001.Controllers.AccountController[0]
+NetCore001>       User created a new account with password.
+NetCore001> info: Microsoft.EntityFrameworkCore.Database.Command[200101]
+NetCore001>       Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+NetCore001>       SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+NetCore001>       FROM [AspNetUserClaims] AS [uc]
+NetCore001>       WHERE [uc].[UserId] = @__user_Id_0
+NetCore001> info: Microsoft.EntityFrameworkCore.Database.Command[200101]
+NetCore001>       Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+NetCore001>       SELECT [role].[Name]
+NetCore001>       FROM [AspNetUserRoles] AS [userRole]
+NetCore001>       INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+NetCore001>       WHERE [userRole].[UserId] = @__userId_0
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+NetCore001>       AuthenticationScheme: Identity.Application signed in.
+NetCore001> info: NetCore001.Controllers.AccountController[0]
+NetCore001>       User created a new account with password.
+NetCore001> info: Microsoft.AspNetCore.Mvc.RedirectToActionResult[1]
+NetCore001>       Executing RedirectResult, redirecting to /.
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+NetCore001>       Executed action NetCore001.Controllers.AccountController.Register (NetCore001) in 179.3836ms
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 181.8461ms 302 
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+NetCore001>       Request starting HTTP/1.1 GET http://localhost:44300/  
+NetCore001> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[8]
+NetCore001>       AuthenticationScheme: Identity.Application was successfully authenticated.
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+NetCore001>       Executing action method NetCore001.Controllers.HomeController.Index (NetCore001) with arguments ((null)) - ModelState is Valid
+NetCore001> info: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor[1]
+NetCore001>       Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+NetCore001> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+NetCore001>       Executed action NetCore001.Controllers.HomeController.Index (NetCore001) in 6.2233ms
+NetCore001> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+NetCore001>       Request finished in 10.7772ms 200 text/html; charset=utf-8
