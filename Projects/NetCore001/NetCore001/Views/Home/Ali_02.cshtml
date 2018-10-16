@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Diseño de etiqueta";
+    ViewData["calorias"] = "100";
+    ViewData["calgrasas"] = "20";
+    ViewData["gtot"] = "2g";
+    ViewData["%grasa"] = "3";
+    ViewData["gsat"] = "1.5g";
+    ViewData["%gsat"] = "7";
+    ViewData["gtran"] = "0g";
+    ViewData["%gtran"] = "";
+    ViewData["col"] = "10mg";
+    ViewData["%col"]= "3";
+    ViewData["Na"] = "460mg";
+    ViewData["%Na"] = "19";
+    ViewData["carH"] = "4g";
+    ViewData["%carH"] = "1";
+    ViewData["fib"] = "0g";
+    ViewData["%fib"] = "0";
+    ViewData["azu"] = "4g";
+    ViewData["%azu"] = "";
+    ViewData["Prot"] = "16g";
+    ViewData["VitA"] = "0%";
+    ViewData["VitC"] = "0%";
+    ViewData["Ca"] = "8%";
+    ViewData["Fe"] = "0%";
+}
+<style>
+    #div1{
+        width: 350px;
+        height: 15px;
+    }
+    #div2 {
+        width: 350px;
+        height: 8px;
+    }
+    #div3 {
+        width: 350px;
+        height: 0px;
+    }
+    #div4 {
+        width: 350px;
+        height: 0px;
+    }
+    #divhr1, #divhr2 {
+      
+    
+    }
+    #modalEtq {
+       
+        width: 350px;
+    }
+</style>
+
+<h2><font face="Bradley Hand ITC">@ViewData["Title"]</font></h2>
+<h3><font face="Bradley Hand ITC">@ViewData["Message"]</font></h3>
+<div class="modal-content modal-sm" style="line-height:10%" id="modalEtq">
+    <div class="modal-body" id="modalEtq">
+        <div class="" id="div1"><h3><font face="arial black" ><strong>Informacion Nutricional</strong></font></h3></div>
+        <div class="" id="div2"><h4><font face="arial"><small>Tamaño de la porcion 1/4 de taza (113 g)</small></font></h4></div>
+        <div class="" id="div3"><h4><font face="arial"><small>Porciones por envase 8</small></font></h4></div>
+        <hr class="" align="left" noshade="noshade" size="5" width="97%" style="height:12px;" color="black"/>
+        <div class="" id="" style="position: absolute; top: 105px;"><h6><font face="arial black"><strong>Cantidad por porcion</strong></font></h6></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px" />
+        <div class="" id="modalEtq"style="position: absolute; top: 143px;">Calorias @ViewData["calorias"] <span class="" style="position: absolute; left: 153px;">Calorias de las grasas @ViewData["calgrasas"]</span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:4px" color="black" />
+        <div class="" id="modalEtq" style="position: absolute; top: 167px;"><font color="white">hidden</font><span class="" style="position: absolute; left: 196px;"><font face="arial black"><strong><small>% de valor diario*</small></strong></font></span></div> 
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px;" />
+        <div class="" id="modalEtq"style="position: absolute; top: 190px;"><font face="arial black">Grasa total</font> @ViewData["gtot"]<span class="" style="position: absolute; left: 290px;"><font face="arial black">@ViewData["%grasa"]</font>%</span></div>
+        <hr class="" align="" noshade="" size="0" width="94%" style="height:1px;" />
+        <div class=""  id="modalEtq"style="position: absolute; top: 213px;"><font color="white">.....</font>Grasa saturadas @ViewData["gsat"]<span class="" style="position: absolute; left: 290px;"><font face="arial black">@ViewData["%gsat"]</font>%</span></div>
+        <hr class="" align="" noshade="" size="0" width="94%" style="height:1px;" />
+        <div class="" id="modalEtq"style="position: absolute; top: 233px;"><font color="white">.....</font>Grasas trans @ViewData["gtran"]<span class="" style="position: absolute; left: 290px;"><font face="arial black">@ViewData["%gtran"]</font></span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px" />
+        <div class="" id="modalEtq"style="position: absolute; top: 256px;"><font face="arial black">Colesterol</font> @ViewData["col"]<span class="" style="position: absolute; left: 290px;"><font face="arial black">@ViewData["%col"]</font>%</span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px" />
+        <div class="" id="modalEtq"style="position: absolute; top: 278px;"><font face="arial black">Sodio</font> @ViewData["Na"]<span class="" style="position: absolute; left: 280px;"><font face="arial black">@ViewData["%Na"]</font>%</span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px" />
+        <div class="" id="modalEtq"style="position: absolute; top: 300px;"><font face="arial black">Total de carbohidratos</font> @ViewData["carH"]<span class="" style="position: absolute; left: 290px;"><font face="arial black">@ViewData["%carH"]</font>%</span></div>
+        <hr class="" align="" noshade="" size="0" width="94%" style="height:1px;" />
+        <div class="" id="modalEtq"style="position: absolute; top: 322px;"><font color="white">.....</font>Fibra @ViewData["fib"]<span class="" style="position: absolute; left: 290px;"><font face="arial black">@ViewData["%fib"]</font>%</span></div>
+        <hr class="" align="" noshade="" size="0" width="94%" style="height:1px;" />
+        <div class="" id="modalEtq"style="position: absolute; top: 345px;"><font color="white">.....</font>Azucares @ViewData["azu"]<span class="" style="position: absolute; left: 240px;"><font face="arial black">@ViewData["%azu"]</font></span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px" />
+        <div class="" id="modalEtq"style="position: absolute; top: 366px;"><font face="arial black">Proteina</font> @ViewData["Prot"]<span class="" style="position: absolute; left: 240px;"><font face="arial black">@ViewData["%Prot"]</font></span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:12px" color="black" />
+        <div class="" id="modalEtq"style="position: absolute; top: 400px;">Vitamina A @ViewData["VitA"] <font color="white">.............</font>•<span class="" style="position: absolute; left: 219px;">Vitamina C @ViewData["VitC"]</span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px" />
+        <div class="" id="modalEtq"style="position: absolute; top: 423px;"> Calcio @ViewData["Ca"] <font color="white">.... ...............</font>•<span class="" style="position: absolute; left: 250px;">Hierro @ViewData["Fe"]</span></div>
+        <hr class="" align="left" noshade="noshade" size="0" width="97%" style="height:1px" />
+        <div class="" id="modalEtq"style="position: absolute; top: 426px;"><h6><font face="calibri"><small>*Los porcentjes de valores diarios se basan en una dieta de 2.000 calorias</small></font></h6></div>
+
+
+        <!-- <div class="">New <span class="" style="position: absolute; left: 200px;">12</span></div>-->
+        <!--  <div class="">New <span class="" style="position: absolute; left: 200px;">11</span></div>-->
+    </div>
+    </div>
+
+<img src="~/images/VEC.svg" alt="ASP.NET" class="img-responsive" />

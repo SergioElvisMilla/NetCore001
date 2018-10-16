@@ -1,0 +1,11 @@
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\bin\Debug\netcoreapp2.0\WebAli_001.deps.json
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\bin\Debug\netcoreapp2.0\WebAli_001.runtimeconfig.json
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\bin\Debug\netcoreapp2.0\WebAli_001.runtimeconfig.dev.json
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\bin\Debug\netcoreapp2.0\WebAli_001.dll
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\bin\Debug\netcoreapp2.0\WebAli_001.pdb
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\obj\Debug\netcoreapp2.0\WebAli_001.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\obj\Debug\netcoreapp2.0\WebAli_001.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\obj\Debug\netcoreapp2.0\WebAli_001.AssemblyInfoInputs.cache
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\obj\Debug\netcoreapp2.0\WebAli_001.AssemblyInfo.cs
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\obj\Debug\netcoreapp2.0\WebAli_001.dll
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\WebAli_001\WebAli_001\obj\Debug\netcoreapp2.0\WebAli_001.pdb

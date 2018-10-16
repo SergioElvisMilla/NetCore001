@@ -1,0 +1,12 @@
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\bin\Debug\netcoreapp2.0\Persons.deps.json
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\bin\Debug\netcoreapp2.0\Persons.runtimeconfig.json
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\bin\Debug\netcoreapp2.0\Persons.runtimeconfig.dev.json
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\bin\Debug\netcoreapp2.0\Persons.dll
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\bin\Debug\netcoreapp2.0\Persons.pdb
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\obj\Debug\netcoreapp2.0\Persons.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\obj\Debug\netcoreapp2.0\Persons.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\obj\Debug\netcoreapp2.0\Persons.AssemblyInfoInputs.cache
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\obj\Debug\netcoreapp2.0\Persons.AssemblyInfo.cs
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\obj\Debug\netcoreapp2.0\Persons.dll
+C:\Users\Sergio\Documents\Visual Studio 2017\Projects\Persons\Persons\obj\Debug\netcoreapp2.0\Persons.pdb

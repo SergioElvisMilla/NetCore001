@@ -1,0 +1,8 @@
+dimensiones en pixeles :
+anchura = 1920 px
+altura = 700 px
+
+tamaño del documento :
+anchura= 67.73 cm
+altura = 24.69 cm
+resolucion = 72 px/plg
