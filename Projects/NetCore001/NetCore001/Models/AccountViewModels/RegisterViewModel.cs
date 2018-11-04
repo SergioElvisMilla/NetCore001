@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using NetCore001.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -23,5 +26,25 @@ namespace NetCore001.Models.AccountViewModels
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Permisos")] 
+        [UIHint("List")]
+        public List<SelectListItem> Roles { get; set; }
+        public string Role { get; set; }
+        private UserRoles userRoles;
+        public RegisterViewModel()
+        {
+
+            Roles = new List<SelectListItem>();
+            userRoles = new UserRoles();
+           
+        }
+        public void getRoles(RoleManager<IdentityRole> roleManager)
+        {
+
+            Roles = userRoles.getRoles(roleManager);
+
+        }
     }
 }

@@ -17,12 +17,35 @@ namespace NetCore001.Controllers
         public FoodsController(ApplicationDbContext context)
         {
             _context = context;
-        }
+        
 
+        }
+      
         // GET: Foods
         public async Task<IActionResult> Index()
         {
+
+            //var idxyz = "crema,";
+            //var id123 = "10";
+
+            //var blogs = _context.Food
+            //    .FromSql($"select*from Food where id between {idxyz} and {id123}")
+            //    .ToList();
+
+            // store procedure
+            //var sp_ListarAlimentoPorNombre = _context.Food
+            //   .FromSql($"sp_ListarAlimentoPorNombre {idxyz}")
+            //   .ToList(); 
+            //
+
+
+
             return View(await _context.Food.ToListAsync());
+            //return View(sp_ListarAlimentoPorNombre);
+
+
+
+
         }
 
         // GET: Foods/Details/5
@@ -86,7 +109,7 @@ namespace NetCore001.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,CodAli,NomAli,NomCom,Estado,AliComValor,NomUniMed,NomTCA")] Food food)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,CodAli,NomAli,NomCom,Estado,AliComValor,NomUniMed,NomCat,NomTCA")] Food food)
         {
             if (id != food.ID)
             {
@@ -116,6 +139,7 @@ namespace NetCore001.Controllers
             return View(food);
         }
 
+
         // GET: Foods/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -134,6 +158,10 @@ namespace NetCore001.Controllers
             return View(food);
         }
 
+
+
+
+
         // POST: Foods/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -149,5 +177,8 @@ namespace NetCore001.Controllers
         {
             return _context.Food.Any(e => e.ID == id);
         }
+
     }
+
+
 }

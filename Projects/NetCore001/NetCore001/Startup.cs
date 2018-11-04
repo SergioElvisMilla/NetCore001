@@ -12,6 +12,7 @@ using NetCore001.Data;
 using NetCore001.Models;
 using NetCore001.Services;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authentication.Facebook;
 //using NetCore001.Data;
 //using NetCore001.Models;
 //using NetCore001.Services;
@@ -41,6 +42,30 @@ namespace NetCore001
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            //Facebook
+            /* services.AddAuthentication().AddFacebook(FacebookOptions =>
+             {
+                 FacebookOptions.AppId = Configuration["555562898235338"];
+                 FacebookOptions.AppSecret = Configuration["03a49a80ed0d5e8aba6045139c3831a8"];
+
+             });*/
+            services.AddAuthentication().AddFacebook(Options =>
+            {
+                Options.AppId = Configuration["Authentication:Facebook:AppId"];
+                Options.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+
+            });
+
+
+            services.AddAuthentication().AddGoogle(Options =>
+            {
+                Options.ClientId = Configuration["AuthenticationG:Google:ClientId"];
+                Options.ClientSecret = Configuration["AuthenticationG:Google:ClientSecret"];
+
+            });
+
+
+
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
@@ -48,7 +73,7 @@ namespace NetCore001
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public async void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider)
         {
 
             //loggerFactory.AddConsole(Configuration.GetSection("Logging"));
@@ -61,6 +86,8 @@ namespace NetCore001
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
                 app.UseDatabaseErrorPage();
+
+               // builder.AddUserSecrets();
             }
             else
             {
@@ -71,14 +98,21 @@ namespace NetCore001
 
             app.UseAuthentication();
 
+            //app.UseFacebookAuthentication(new FacebookOptions()
+            //{
+            //    AppId = "1919901744970558"
+        
+            //});
+
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-            //await CreateRoles(serviceProvider);
-
+            // await CreateRoles(serviceProvider);
+            //CreateRoles(serviceProvider).Wait();
 
         }
         //private async Task CreateRoles(IServiceProvider serviceProvider)
@@ -97,6 +131,8 @@ namespace NetCore001
 
         //        }
         //    }
+        //    var user = await userMagar.FindByIdAsync("d5decff2-30f9-45dc-a0cd-8716fac92121");
+        //    await userMagar.AddToRoleAsync(user, "Admin");
 
         //}
 

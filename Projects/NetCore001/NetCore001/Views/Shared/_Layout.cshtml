@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inject SignInManager<ApplicationUser> SignInManager
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -30,12 +31,29 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Ali">Ali</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Ali_01">Ali_01</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Ali_02">Etiquetado</a></li>
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+
+                        <li><a asp-area="" asp-controller="Foods" asp-action="Index">Home</a></li>
+                        <li><a asp-area="" asp-controller="Users" asp-action="Index">Users</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Ali_02">Etiquetado</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Ali">Ali</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Ali_01">Ali_01</a></li>
+                    }
+                    else
+                    {
+
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Ali">Ali</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Ali_01">Ali_01</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Ali_02">Etiquetado</a></li>
+
+                    }
+
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
             </div>
@@ -45,7 +63,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - Sergio Elvis Calizaya Milla // Proyecto Ali</p>
+            <p>&copy; 2018 - Sergio Elvis Calizaya Milla // ProAli_SSS</p>
         </footer>
     </div>
 

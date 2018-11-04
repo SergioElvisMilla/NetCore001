@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "first commit04112018"
+git remote add origin https://github.com/SergioElvisMilla/NetCore001
+git push -u origin master
+
+
+si no funciona ejecutar 
+
+git pull --rebase origin master
+
+git push origin master

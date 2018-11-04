@@ -16,5 +16,6 @@
     <WebStackScaffolding_DbContextTypeFullName>NetCore001.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>NetCore00120181025102828 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
